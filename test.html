@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Hello</h1>
+<p id="hello"></p>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script><script>
+<!--console.log("started")-->
+<!--    var token = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ1cm46b2lkOmZoaXIiLCJjbGllbnRfaWQiOiJhZWNkYThjYS1hNDY5LTQ0YjEtYjQ5OC1hNjNiZDU3MGEzMDMiLCJlcGljLmVjaSI6InVybjplcGljOk9wZW4uRXBpYy1jdXJyZW50IiwiZXBpYy5tZXRhZGF0YSI6InA3TFdaTTRUVXBxV1I0MTdtRTVfWTFKSEJ6VEdLX3hoV2FDdDZzR0JuRW1qMHBHZ3g1SXVRS3RmMjF2MDA1b1VGbFF4NmNyUTZOOHFhT3NJLTJhWUV3OEpKQkhaLWJHc19MVWNGUDFKSFgtaUNOREdlVlc1R1hMUzBjZGhTS3hTIiwiZXBpYy50b2tlbnR5cGUiOiJhY2Nlc3MiLCJleHAiOjE2NjMxMzU4NjEsImlhdCI6MTY2MzEzMjI2MSwiaXNzIjoidXJuOm9pZDpmaGlyIiwianRpIjoiYzBhYTFiMzctYTVlMi00NGIzLTgxZjgtOWJiYzA0ZDQzMjU1IiwibmJmIjoxNjYzMTMyMjYxLCJzdWIiOiJldk5wLUtoWXdPT3FBWm4xcFoyZW51QTMifQ.YFTU_0OnKA4DbrT7StfwvrgGTGo1XLABxUTAph5Ehghy89eaDO6LA3fDDx2J3DvoG5WlD-LeRqLSLEKPBE-HfH3qXKeKOH-RBdqqbL6JR7oS3en_syvYLCdFPEmaRdKrTf071nlBVFFOEflUmMGEg_r3OTwnbdZ3i3ThL2E3x4r9x2bHRSyV1LMsQTGJKjjsjpI6N8Ya7duB1I-Ysa4kJbb3GnyFFBpwFc1dEWd5LPxER5ooTolMQucgGMGaQOh4ak6Zl6iZIlg0okJDZMKIyBlntwmyn990nIMcNG5cQq64mp8wDDDgmwNQkjtLM-FgBgT-wcufKOV_6yChvk5jeA'-->
+<!--    var url = 'https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/DSTU2/Patient?given=Derrick&family=Lin&birthdate=1973-06-03'-->
+
+<!--    function myFunction(){-->
+<!--    console.log(url)-->
+<!--    console.log(token)-->
+<!--        fetch(url, {-->
+<!--          method: 'GET',-->
+<!--          headers: {-->
+<!--            'Authorization': 'Bearer ' + token,-->
+<!--          }-->
+<!--        })-->
+<!--        .then((response) => console.log(response.json()))-->
+<!--    }-->
+
+<!--    myFunction()-->
+</script>
+<script>
+    var token = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ1cm46b2lkOmZoaXIiLCJjbGllbnRfaWQiOiJhZWNkYThjYS1hNDY5LTQ0YjEtYjQ5OC1hNjNiZDU3MGEzMDMiLCJlcGljLmVjaSI6InVybjplcGljOk9wZW4uRXBpYy1jdXJyZW50IiwiZXBpYy5tZXRhZGF0YSI6InA3TFdaTTRUVXBxV1I0MTdtRTVfWTFKSEJ6VEdLX3hoV2FDdDZzR0JuRW1qMHBHZ3g1SXVRS3RmMjF2MDA1b1VGbFF4NmNyUTZOOHFhT3NJLTJhWUV3OEpKQkhaLWJHc19MVWNGUDFKSFgtaUNOREdlVlc1R1hMUzBjZGhTS3hTIiwiZXBpYy50b2tlbnR5cGUiOiJhY2Nlc3MiLCJleHAiOjE2NjMxMzU4NjEsImlhdCI6MTY2MzEzMjI2MSwiaXNzIjoidXJuOm9pZDpmaGlyIiwianRpIjoiYzBhYTFiMzctYTVlMi00NGIzLTgxZjgtOWJiYzA0ZDQzMjU1IiwibmJmIjoxNjYzMTMyMjYxLCJzdWIiOiJldk5wLUtoWXdPT3FBWm4xcFoyZW51QTMifQ.YFTU_0OnKA4DbrT7StfwvrgGTGo1XLABxUTAph5Ehghy89eaDO6LA3fDDx2J3DvoG5WlD-LeRqLSLEKPBE-HfH3qXKeKOH-RBdqqbL6JR7oS3en_syvYLCdFPEmaRdKrTf071nlBVFFOEflUmMGEg_r3OTwnbdZ3i3ThL2E3x4r9x2bHRSyV1LMsQTGJKjjsjpI6N8Ya7duB1I-Ysa4kJbb3GnyFFBpwFc1dEWd5LPxER5ooTolMQucgGMGaQOh4ak6Zl6iZIlg0okJDZMKIyBlntwmyn990nIMcNG5cQq64mp8wDDDgmwNQkjtLM-FgBgT-wcufKOV_6yChvk5jeA'
+
+    $(document).ready(function() {
+
+        $.ajax({
+          type: "GET",
+          url: 'https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/List/eqX4kTQdjpuUjQp26ldj6UcJlPDSIceTIwXIPtsEdnvcoWwh.m1fRG-A1ga1bBICq3',
+          dataType: 'json',
+          headers: {
+            "Authorization": "Bearer " + token
+          },
+          success: function (result){
+              console.log(result)
+              document.getElementById("hello").innerHTML = JSON.stringify(result)
+          }
+        });
+
+       });
+
+</script>
+</html>
